@@ -1,0 +1,303 @@
+body{
+    background-color: #F6F6F6;
+    text-align: center;
+    font-family: 'Merriweather', serif;;
+}
+
+hr{
+    border-top: #DD7F1E solid 2px;
+
+    width: 150%;
+    position: relative;
+}
+
+.sections{
+    margin: 12% 15%
+}
+
+/* Presentation */
+
+h1, h2, h3, h4, h5, h6{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-image{
+    width: 100%;
+}
+
+.h3-name{
+    background-color: #5D70AE;
+    font-weight: 400;
+
+    margin-top: 10%;
+    padding: 10px 80px;
+    display: inline-block;
+}
+
+.presentation-titles{
+    /* position: absolute; */
+    background-image: url("https://cdn.eventil.com/uploads/event/header_image/321169/highres_481894234.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/* .claseDelDiv{background-image: url("/la/url/de/la/imagen.png");background-repeat: no-repeat;background-size: cover;} */
+
+
+.h1-title{
+    padding-bottom: 15%;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+/* Abilities */
+
+.h1-abilities{
+    color: #132540;
+    font-weight: 600;
+    text-align: left;
+}
+
+.col-hr-abilities{
+    right: 60%;
+    top: 10px;
+    width: 160%;
+}
+
+.hr-project{
+    top: 5px;
+    right: 7px;
+    width: 152%;
+}
+
+.cages{
+    background-color: white;
+    border-radius: 15px;
+    padding: 2em 0 1em;
+
+    margin-top: 40%;
+}
+
+.h3-abilities{
+    color: #132540;
+    font-size: 400;
+    padding: 1em 0;
+}
+
+.icon{
+    font-size: 6em;
+    margin: 7px;
+}
+
+.fa-python{
+    color: #508BFF;
+}
+
+.fa-js-square{
+    color: #faf619;
+}
+
+.fa-html5{
+    color: tomato;
+}
+
+.fa-css3-alt{
+    color: royalblue;
+}
+
+/* Projects */
+
+.h1-projects{
+    color: #132540;
+    font-weight: 600;
+    
+    text-align: right;
+}
+
+.hr-project{
+    top: 5px;
+    right: 7px;
+    width: 152%;
+}
+
+/* Bubble Pop */
+
+.h1-bp{
+    color: #132540;
+    padding: 0px 10px;
+    font-size: 5em;
+    font-weight: 100;
+}
+
+.red-span{
+    color: red;
+}
+
+.bp-cage{
+    width: 80%;
+    height: 150%;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+.bubbles{
+    width: 22%;
+    padding: 20px 10px 20px;
+}
+
+.h3-bp{
+    padding: 5% auto 2% auto;
+}
+
+.h3-unity{
+    padding: 0 0 0 0;
+}
+
+.a-bp{
+    display: block;
+    padding: 20px;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.h1-on-way{
+
+    color: #132540;
+    
+    font-size: 2rem;
+    font-weight: 300;
+    
+    margin-top: 10%;
+}
+
+/* Contact */
+
+.contact-div{
+    background-color: #f8f9fa;
+    padding: 10%;
+}
+
+.c-section{
+    margin: 12% 0 0
+}
+
+.c-h{
+    padding: 20px;
+    color: #132540;
+}
+
+
+@media (max-width: 1300px){
+/* 
+    .presentation-titles{
+        top: 40%;
+        left: 10%;
+    } */
+
+    .h3-name{
+        font-size: 1.5rem;
+    }
+
+    .h1-title{
+        font-size: 2.2rem;
+    }
+
+    .cages{
+        margin-top: 20%;
+    }
+
+    .col-hr-abilities{
+        width: 160%;
+    }
+
+    .hr-project{
+        right: 0%;
+        width: 145%;
+    }
+    
+}
+
+@media (max-width: 1230px){
+    .col-hr-abilities{
+        width: 150%;
+        right: 50%; 
+    }
+
+    .hr-project{
+        right: 0%;
+        width: 135%;
+    }
+}
+
+
+@media (max-width: 988px){
+    .col-hr-abilities{ 
+        width: 135%;
+        right: 40%;
+    }
+
+    .hr-project{
+        width: 110%;
+    }
+
+}
+
+@media (max-width: 757px){
+
+    .hr-project{       
+        width: 170%;
+    }
+
+    .col-hr-abilities{      
+        right: 15%;
+        width: 115%;
+    }
+    .h1-bp{
+        font-size: 3.5em;
+    }
+
+}
+
+@media (max-width: 680px){
+    .h1-bp{
+        font-size: 2.5em;
+    }
+    .h1-projects{
+        font-size: 2rem;
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 600px){
+
+}
+
+@media (max-width: 570px){
+    .col-hr-abilities{  
+        right: 50%;
+        width: 150%;
+    }
+
+    .hr-project{
+        width: 140%;
+        right: -10%;
+    }
+
+    .h3-name{
+        font-size: 1rem;
+        padding: 10px 60px;
+    }
+
+}
+
+@media (max-width: 290px){
+    h5.c-h{
+        margin: 10px 5px;
+        font-size: 15px;
+    }
+    .h1-projects{
+        font-size: 1.5rem;
+    }
+}
+
