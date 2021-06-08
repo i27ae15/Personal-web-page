@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6{
 @media (max-width: 988px){
     .col-hr-abilities{ 
         width: 135%;
-        right: 40%;
+        right: 37%;
     }
 
     .hr-project{
@@ -269,10 +269,6 @@ h1, h2, h3, h4, h5, h6{
     }
 }
 
-@media (max-width: 600px){
-
-}
-
 @media (max-width: 570px){
     .col-hr-abilities{  
         right: 50%;
@@ -289,6 +285,22 @@ h1, h2, h3, h4, h5, h6{
         padding: 10px 60px;
     }
 
+    .h1-title{
+        font-size: 1.8rem;
+    }
+
+}
+
+@media (max-width: 380px){
+    .h1-title{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 330px){
+    .h1-title{
+        font-size: 1.4rem;
+    }
 }
 
 @media (max-width: 290px){
