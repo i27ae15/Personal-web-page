@@ -1,32 +1,32 @@
-body{
+body {
     background-color: #F6F6F6;
     text-align: center;
-    font-family: 'Merriweather', serif;;
+    font-family: 'Merriweather', serif; 
 }
 
-hr{
+hr {
     border-top: #DD7F1E solid 2px;
 
     width: 150%;
     position: relative;
 }
 
-.sections{
+#skills {
+    margin: 5% 15%
+}
+
+
+#projects {
     margin: 12% 15%
 }
 
 /* Presentation */
 
-h1, h2, h3, h4, h5, h6{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.title-image{
+.title-image {
     width: 100%;
 }
 
-.h3-name{
+.h3-name {
     background-color: #5D70AE;
     font-weight: 400;
 
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6{
     display: inline-block;
 }
 
-.presentation-titles{
+.presentation-titles {
     /* position: absolute; */
     background-image: url("https://cdn.eventil.com/uploads/event/header_image/321169/highres_481894234.jpg");
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6{
 /* .claseDelDiv{background-image: url("/la/url/de/la/imagen.png");background-repeat: no-repeat;background-size: cover;} */
 
 
-.h1-title{
+.h1-title {
     padding-bottom: 15%;
     font-weight: 700;
     font-size: 3rem;
@@ -54,25 +54,25 @@ h1, h2, h3, h4, h5, h6{
 
 /* Abilities */
 
-.h1-abilities{
+.h1-abilities {
     color: #132540;
     font-weight: 600;
     text-align: left;
 }
 
-.col-hr-abilities{
+.col-hr-abilities {
     right: 60%;
     top: 10px;
     width: 160%;
 }
 
-.hr-project{
+.hr-project {
     top: 5px;
     right: 7px;
     width: 152%;
 }
 
-.cages{
+.cages {
     background-color: white;
     border-radius: 15px;
     padding: 2em 0 1em;
@@ -80,43 +80,48 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 40%;
 }
 
-.h3-abilities{
+.h3-abilities {
     color: #132540;
     font-size: 400;
     padding: 1em 0;
 }
 
-.icon{
+.icon {
     font-size: 6em;
     margin: 7px;
 }
 
-.fa-python{
+.fa-python {
     color: #508BFF;
 }
 
-.fa-js-square{
+.fa-js-square {
     color: #faf619;
 }
 
-.fa-html5{
+.fa-html5 {
     color: tomato;
 }
 
-.fa-css3-alt{
+.fa-css3-alt,
+.fa-database {
     color: royalblue;
+}
+
+.fa-server {
+    color: #59b73f;
 }
 
 /* Projects */
 
-.h1-projects{
+.h1-projects {
     color: #132540;
     font-weight: 600;
-    
+
     text-align: right;
 }
 
-.hr-project{
+.hr-project {
     top: 5px;
     right: 7px;
     width: 152%;
@@ -124,191 +129,194 @@ h1, h2, h3, h4, h5, h6{
 
 /* Bubble Pop */
 
-.h1-bp{
+.h1-bp {
     color: #132540;
     padding: 0px 10px;
     font-size: 5em;
     font-weight: 100;
 }
 
-.red-span{
+.red-span {
     color: red;
 }
 
-.bp-cage{
+.bp-cage {
     width: 80%;
     height: 150%;
     margin-top: 7%;
     margin-left: 10%;
 }
 
-.bubbles{
+.bubbles {
     width: 22%;
     padding: 20px 10px 20px;
 }
 
-.h3-bp{
+.h3-bp {
     padding: 5% auto 2% auto;
 }
 
-.h3-unity{
+.h3-unity {
     padding: 0 0 0 0;
 }
 
-.a-bp{
+.a-bp {
     display: block;
     padding: 20px;
     font-family: 'Baloo Tammudu 2', cursive;
 }
 
-.h1-on-way{
+.h1-on-way {
 
     color: #132540;
-    
+
     font-size: 2rem;
     font-weight: 300;
-    
+
     margin-top: 10%;
 }
 
 /* Contact */
 
-.contact-div{
+.contact-div {
     background-color: #f8f9fa;
     padding: 10%;
 }
 
-.c-section{
+.c-section {
     margin: 12% 0 0
 }
 
-.c-h{
+.c-h {
     padding: 20px;
     color: #132540;
 }
 
 
-@media (max-width: 1300px){
-/* 
+@media (max-width: 1300px) {
+    /* 
     .presentation-titles{
         top: 40%;
         left: 10%;
     } */
 
-    .h3-name{
+    .h3-name {
         font-size: 1.5rem;
     }
 
-    .h1-title{
+    .h1-title {
         font-size: 2.2rem;
     }
 
-    .cages{
+    .cages {
         margin-top: 20%;
     }
 
-    .col-hr-abilities{
+    .col-hr-abilities {
         width: 160%;
     }
 
-    .hr-project{
+    .hr-project {
         right: 0%;
         width: 145%;
     }
-    
+
 }
 
-@media (max-width: 1230px){
-    .col-hr-abilities{
+@media (max-width: 1230px) {
+    .col-hr-abilities {
         width: 150%;
-        right: 50%; 
+        right: 50%;
     }
 
-    .hr-project{
+    .hr-project {
         right: 0%;
         width: 135%;
     }
 }
 
 
-@media (max-width: 988px){
-    .col-hr-abilities{ 
+@media (max-width: 988px) {
+    .col-hr-abilities {
         width: 135%;
         right: 37%;
     }
 
-    .hr-project{
+    .hr-project {
         width: 110%;
     }
 
 }
 
-@media (max-width: 757px){
+@media (max-width: 757px) {
 
-    .hr-project{       
+    .hr-project {
         width: 170%;
     }
 
-    .col-hr-abilities{      
+    .col-hr-abilities {
         right: 15%;
         width: 115%;
     }
-    .h1-bp{
+
+    .h1-bp {
         font-size: 3.5em;
     }
 
 }
 
-@media (max-width: 680px){
-    .h1-bp{
+@media (max-width: 680px) {
+    .h1-bp {
         font-size: 2.5em;
     }
-    .h1-projects{
+
+    .h1-projects {
         font-size: 2rem;
         padding-right: 10%;
     }
 }
 
-@media (max-width: 570px){
-    .col-hr-abilities{  
+@media (max-width: 570px) {
+    .col-hr-abilities {
         right: 50%;
         width: 150%;
     }
 
-    .hr-project{
+    .hr-project {
         width: 140%;
         right: -10%;
     }
 
-    .h3-name{
+    .h3-name {
         font-size: 1rem;
         padding: 10px 60px;
     }
 
-    .h1-title{
+    .h1-title {
         font-size: 1.8rem;
     }
 
 }
 
-@media (max-width: 380px){
-    .h1-title{
+@media (max-width: 380px) {
+    .h1-title {
         font-size: 1.6rem;
     }
 }
 
-@media (max-width: 330px){
-    .h1-title{
+@media (max-width: 330px) {
+    .h1-title {
         font-size: 1.4rem;
     }
 }
 
-@media (max-width: 290px){
-    h5.c-h{
+@media (max-width: 290px) {
+    h5.c-h {
         margin: 10px 5px;
         font-size: 15px;
     }
-    .h1-projects{
+
+    .h1-projects {
         font-size: 1.5rem;
     }
 }
