@@ -1,0 +1,62 @@
+body{
+    background-color: #edf2f4;   
+    font-family: 'Baloo Tammudu 2', cursive;
+    text-align: center;
+}
+
+hr{
+    margin-top: 7%;
+    margin-bottom: 7%;
+
+    width: 20%;
+    border-top: #ff477e dotted 10px;
+}
+
+#title{
+    margin: 5% 15%;
+}
+
+.to-red{
+    color: red;
+}
+
+.bp-title{
+    font-size: 5rem;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.navbar-items{
+    position: relative;
+    left: 87%;
+}
+
+.description{ 
+    padding-top: 10%;
+    font-size: 2.5rem;
+}
+
+.bp-menu-img{
+    width: 50%;
+    border-radius: 15px;
+}
+
+/* Features */
+
+.b-size{
+    width: 40%;
+}
+
+.p-features{
+    padding: 10%;
+    font-size: 2rem;
+}
+
+/* Privacy */
+
+#Policy{
+    margin-bottom: 50px;
+}
+
+
+
+
