@@ -4,6 +4,10 @@ body {
     font-family: 'Merriweather', serif; 
 }
 
+a{
+    color: rgb(34, 34, 189);
+}
+
 hr {
     border-top: #DD7F1E solid 2px;
 
